@@ -1,0 +1,48 @@
+repos:
+
+-   repo: https://github.com/timothycrosley/isort
+    rev: 5.6.4
+    hooks:
+    - id: isort
+      exclude: 'manage.py|setup.py|migrations'
+      args: [--filter-files]
+      files: \.py$
+
+-   repo: https://github.com/ambv/black
+    rev: 20.8b1
+    hooks:
+    - id: black
+      exclude: 'manage.py|setup.py|migrations'
+      args: [--target-version=py38, --line-length=120]
+
+-   repo: https://github.com/pycqa/pylint
+    rev: pylint-2.6.0
+    hooks:
+    - id: pylint
+      exclude: 'manage.py|test|setup.py|migrations'
+      args: [
+        --max-line-length=120,
+        --disable=design,
+        --disable=missing-docstring,
+        --disable=bad-continuation,
+        --disable=max-module-lines,
+        --disable=useless-super-delegation,
+        --disable=import-error,
+        --disable=logging-fstring-interpolation,
+        --disable=invalid-name,
+        --disable=duplicate-code,
+        --disable=broad-except,
+        --disable=logging-format-interpolation,
+        --disable=too-many-lines,
+        --disable=no-self-use,
+        --disable=unused-argument,
+        --disable=fixme, # At some point this can be removed
+        --disable=unused-import,
+      ]
+
+-   repo: https://github.com/PyCQA/bandit
+    rev: 1.6.2
+    hooks:
+      - id: bandit
+        args: ['-iii', '-ll']
+        exclude: 'manage.py|tests|setup.py|migrations'
