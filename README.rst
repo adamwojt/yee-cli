@@ -47,7 +47,7 @@ Config
     }
 
 * Config path can be also passed with ``-c`` flag or ``YEE_ROOM_CONFIG`` env variable
-* To find bulb IPs use tools like ``nmap``, ``putty`` or check on your `YeeLight app <https://play.google.com/store/apps/details?id=com.yeelight.cherry&hl=en&gl=US>`_
+* To find bulb IPs use tools like ``nmap``, ``nutty`` or check on your `YeeLight app <https://play.google.com/store/apps/details?id=com.yeelight.cherry&hl=en&gl=US>`_
 
 Usage
 -----
