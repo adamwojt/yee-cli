@@ -94,7 +94,7 @@ Credits
 * Uses `click <https://click.palletsprojects.com/en/7.x/>`_
 * Created with Cookiecutter_ and the `johanvergeer/cookiecutter-poetry`_ project template.
 
-After writing almost all I realised that author of `python-yeelight <https://github.com/skorokithakis/python-yeelight>`_ . Check it out - it has CLI package here, it has different API / config and more features >>> `yeecli <https://github.com/skorokithakis/yeecli>`_
+After writing almost all I realised that author of `python-yeelight <https://github.com/skorokithakis/python-yeelight>`_ also wrote CLI. Check it out - it has different API / config and more features >>> `yeecli <https://github.com/skorokithakis/yeecli>`_
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`johanvergeer/cookiecutter-poetry`: https://github.com/johanvergeer/cookiecutter-poetry
