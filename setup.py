@@ -23,7 +23,7 @@ if os.path.exists(readme_path):
 setup(
     long_description=readme,
     name="yee-cli",
-    version="0.1.1",
+    version="0.1.2",
     description="Simple Yeelight Room control CLI written in Python.",
     python_requires="==3.*,>=3.6.0",
     project_urls={"repository": "https://github.com/adamwojt/yee-cli"},
