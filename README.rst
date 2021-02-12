@@ -60,9 +60,9 @@ Usage
 .. code-block:: text
 
     yee bedroom on
-    yee office dim 10
+    yee bedroom dim 10
     yee color_list
-    yee office color indianred
+    yee bedroom color indianred
     ... romance on !
 
 **Commands:**
