@@ -16,7 +16,7 @@ Yee CLI
         :target: https://github.com/psf/black
 
 
-Simple Yeelight Room control CLI written in Python.
+Simple Yeelight Room control CLI written in Python. Control your lights from terminal.
 
 Installation
 ------------
