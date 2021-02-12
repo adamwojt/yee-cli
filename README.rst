@@ -79,12 +79,12 @@ Usage
 Troubleshooting
 ---------------
 
-Connection Issues:
+Connection Issues (make sure):
     * IP addresses of bulbs in config are correct.
     * LAN Control is ON (https://www.yeelight.com/faqs/lan_control).
     * You are connected to same WIFI network as your bulbs.
 Other:
-    * For more debug ideas visit https://github.com/skorokithakis/python-yeelight"""
+    * For more debug ideas visit https://github.com/skorokithakis/python-yeelight
 
 Credits
 -------
