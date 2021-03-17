@@ -87,6 +87,7 @@ Connection Issues (make sure):
     * You are connected to same WIFI network as your bulbs.
 Other:
     * For more debug ideas visit https://github.com/skorokithakis/python-yeelight
+    * If your bulb IP addresses keep changing you may want to set static DHCP lease on your router.
 
 Credits
 -------
